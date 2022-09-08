@@ -44,7 +44,7 @@ public void setnpages(int npagi){
    //llama al valor guardado en npages
 this.npage=npagi;
 }
-//lee unos valores, los convierte y los muestra en pantalla
+//lee unos valores, los convierte y los muestra en consola
 public void tostring(){ Console.WriteLine("El libro "+this.titulo+" con ISBN "+this.ISBN+" creado por el autor "+this.autor+" tiene "+this.npage+" paginas.");
 }
 }
