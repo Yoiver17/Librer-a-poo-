@@ -19,9 +19,9 @@ public string getautor(){
 //devuelve un valor cuando se usa
 return(this.autor);
 }
-//configurar autot
+//configurar autor
 public void setautor(string autor){
-
+//llama al valor guardado en autor
 this.autor=autor;
 }
 //consultar ISBN
@@ -31,6 +31,7 @@ return(this.ISBN);
 }
 //configurar ISBN
 public void setISBN(int ncode){
+   //llama al valor guardado en ISBN
 this.ISBN=ncode;
 }
 //consultar paginas
@@ -40,6 +41,7 @@ return(this.npage);
 }
 //configurar paginas
 public void setnpages(int npagi){
+   //llama al valor guardado en npages
 this.npage=npagi;
 }
 //lee unos valores, los convierte y los muestra en pantalla
